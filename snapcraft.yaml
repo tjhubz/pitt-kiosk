@@ -1,0 +1,20 @@
+name: pitt-kiosk-amd64
+version: '22-0.3'
+type: gadget
+base: core22
+summary: PC gadget snap for amd64 Pitt Kiosks.
+description: |
+    This gadget enables generic pc devices to work with Ubuntu Core
+confinement: strict
+grade: stable
+icon: icon.png
+
+parts:
+  grub:
+    source: .
+    build-packages:
+      - ubuntu-dev-tools
+      - grub-pc-bin
+      - grub-common
+    plugin: make
+
