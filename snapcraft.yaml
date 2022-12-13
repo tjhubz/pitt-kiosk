@@ -1,4 +1,4 @@
-name: pitt-kiosk-amd64
+name: pitt-kiosk
 version: '22-0.3'
 type: gadget
 base: core22
