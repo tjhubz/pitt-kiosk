@@ -1,4 +1,4 @@
-name: pitt-kiosk
+name: pc-pitt-kiosk
 version: '22-0.3'
 type: gadget
 base: core22
